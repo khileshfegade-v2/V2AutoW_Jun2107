@@ -1,0 +1,571 @@
+[TestNG] Running:
+  C:\Users\dhruval.patel\AppData\Local\Temp\testng-eclipse-407879030\testng-customsuite.xml
+
+: Initializing keywords
+: =========================================================
+: Executing---RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings Test Case
+: Navigating to (https://app.rsign.com) Site
+: Driver Handle: null
+: No Opened Browser Available, Opening New one
+: Opening: Mozilla Browser
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/RPostV2AutoWQA/jars/browsermob-dist-2.1.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/RPostV2AutoWQA/jars/browsermob-dist-2.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+FIREFOX 41.0
+: PASS
+: Waiting for Page to load.
+: PASS
+: Entering: "AdminUserRpost@v2solutions.com" text in USER_NAME Field
+: PASS
+: Entering: "Mail_123" text in PASS_WORD Field
+: PASS
+: Performing Click action on SIGN_IN
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Waiting for Page to load.
+: PASS
+: Entering: "TestUserRpost@v2solutions.com" text in USER_NAME_INPUT_MANAGETAB Field
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+: Verifying SENDER_NAME Text on the Page
+: Actual is-> Test User AND Expected is-> Test User
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on AWAITING_FOR_MY_SIGNATURE_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Envelope Code
+: Getting CURRENT_STATUS_COLUMN Column Data from the Table
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Total 8 records found.
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: PASS
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : Message Subject line with Timestamp..xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on COMPLETED_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Unable to match data with table data.
+: FAIL - Not able to match data with table data.
+: Verification failed. Please refer RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020257_PM(IST).png
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Completed AND Expected is-> Completed
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : Message Subject line with Timestamp..xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on EXPIRING_SOON_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Envelope Code
+: Getting CURRENT_STATUS_COLUMN Column Data from the Table
+Values : Waiting for Signature
+Values : Waiting for Signature
+Values : Waiting for Signature
+Total 3 records found.
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: PASS
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : Message Subject line with Timestamp..xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on INCOMPLETE_AND_EXPIRED_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Envelope Code
+: Getting CURRENT_STATUS_COLUMN Column Data from the Table
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : Incomplete and Expired
+Values : 8/14/2014 2:44:08 PM UTC
+Values : 8/8/2014 7:39:33 PM UTC
+Total 50 records found.
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: Actual is-> 8/14/2014 2:44:08 PM UTC AND Expected is-> Incomplete and Expired
+: FAIL - Actual is-> 8/14/2014 2:44:08 PM UTC AND Expected is->Incomplete and Expired
+: Verification failed. Please refer RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020428_PM(IST).png
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Incomplete and Expired AND Expected is-> Incomplete and Expired
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : 2nd signer.xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on WAITING_FOR_SIGNATURE_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Envelope Code
+: Getting CURRENT_STATUS_COLUMN Column Data from the Table
+RESULT: FAIL - Unable to locate CURRENT_STATUS_COLUMN element using its xpath identifier , This can be because new code/content deployemnt on AUT. Please check and update OR fileorg.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for visibility of element located by By.xpath: html/body/div[1]/div/form/div[2]/table/thead/tr/th[4]
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'V2MUMPC0474', ip: '192.168.50.29', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f402c621-3386-4984-8d01-d8056f8fe375
+Unable to match data with table data.
+: FAIL - Not able to match data with table data.
+: Verification failed. Please refer RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020531_PM(IST).png
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Waiting for Signature AND Expected is-> Waiting for Signature
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : Message Subject line with Timestamp..xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on TERMINATED_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Envelope Code
+: Getting CURRENT_STATUS_COLUMN Column Data from the Table
+Unable to match data with table data.
+: FAIL - Not able to match data with table data.
+: Verification failed. Please refer RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020636_PM(IST).png
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Terminated AND Expected is-> Terminated
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : Message Subject line with Timestamp..xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on MANAGE
+: PASS
+: Performing Click action on ENVELOPESTATUS_DROPDOWN
+: PASS
+: Performing Click action on TRANSACTIOIN_CANCELLED_OPTION
+: PASS
+: Performing Click action on SUBMIT_ENVELOPESTATUS
+: PASS
+: Waiting for Page to load.
+: PASS
+Envelope Code
+: Getting CURRENT_STATUS_COLUMN Column Data from the Table
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Values : Transaction Cancelled
+Total 38 records found.
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: PASS
+: Verifying ENVELOPESTATUS_TEXT Text on the Page
+: Actual is-> Transaction Cancelled AND Expected is-> Transaction Cancelled
+: PASS
+: Waiting for Page to load.
+: PASS
+: Performing Click action on ENVELOPE_EXPAND
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully deleted directory : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on DOWNLOAD_DOCUMENT
+: PASS
+: Waiting for Page to load.
+: PASS
+: saving a file 
+: PASS
+: Waiting for Page to load.
+: PASS
+Successfully executed with file name of : Message Subject line with Timestamp..xml
+directory has files with different file extention or folders.
+Successfully verified files : C:\Users\dhruval.patel\Downloads
+: PASS
+: Performing Click action on LOGOUT_IMAGE
+: PASS
+: Performing Click action on LOGOUT_LINK
+: PASS
+: TestCase is Ending
+Inside After Test 
+Last Test Case Quit
+FAILED: verify_AdminUser_ManageEnvelopePageWorkings({RunMode=Y})
+java.lang.AssertionError: FAIL - Not able to match data with table data. , For Error Screenshot please refer to this link  : <a href='RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020257_PM(IST).png'>RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020257_PM(IST).png</a> && FAIL - Actual is-> 8/14/2014 2:44:08 PM UTC AND Expected is->Incomplete and Expired , For Error Screenshot please refer to this link  : <a href='RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020428_PM(IST).png'>RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020428_PM(IST).png</a> && FAIL - Not able to match data with table data. , For Error Screenshot please refer to this link  : <a href='RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020531_PM(IST).png'>RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020531_PM(IST).png</a> && FAIL - Not able to match data with table data. , For Error Screenshot please refer to this link  : <a href='RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020636_PM(IST).png'>RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings--Failed_AT-VerifyTableData-ENVELOPE_TABLE-2504_020636_PM(IST).png</a> &&  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at in.v2solutions.hybrid.util.Keywords.TestCaseEnds(Keywords.java:2368)
+	at in.v2solutions.hybrid.util.Keywords.executeKeywords(Keywords.java:405)
+	at in.v2solutions.hybrid.testcases.RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings.verify_AdminUser_ManageEnvelopePageWorkings(RPOST_D_12_Verify_AdminUser_ManageEnvelopePageWorkings.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Failures: 1, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2d363fb3: 23 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@200a570f: 40 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@182decdb: 107 ms
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7de26db8: 161 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@782830e: 43 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 5 ms

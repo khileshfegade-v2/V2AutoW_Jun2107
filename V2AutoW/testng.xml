@@ -1,0 +1,68 @@
+<suite name="P1">
+<parameter name="Suite-Name" value="Rpost_P1_1.2"/>
+<test name="RPOST_D_02_Verify_UserCanLoginWithValidCredentials">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_02_Verify_UserCanLoginWithValidCredentials"></class>
+</classes>
+</test>
+<test name="RPOST_D_03_Verify_UserCanEditAndUpdateProfileName">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_03_Verify_UserCanEditAndUpdateProfileName"></class>
+</classes>
+</test>
+<test name="RPOST_D_05_Verify_UserCanCreateEnvelopeAndSend">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_05_Verify_UserCanCreateEnvelopeAndSend"></class>
+</classes>
+</test>
+<test name="RPOST_D_07_Verify_UserCanConsumeTemplateEditAndSendIt">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_07_Verify_UserCanConsumeTemplateEditAndSendIt"></class>
+</classes>
+</test>
+<test name="RPOST_D_08_Verify_UserCanCreateEnvelopeAndDraftIt">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_08_Verify_UserCanCreateEnvelopeAndDraftIt"></class>
+</classes>
+</test>
+<test name="RPOST_D_09_Verify_UserCanCreateEnvelopeAndViewPDF">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_09_Verify_UserCanCreateEnvelopeAndViewPDF"></class>
+</classes>
+</test>
+<test name="RPOST_D_13_Verify_StatusFilterWorksUnderManageTab">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_13_Verify_StatusFilterWorksUnderManageTab"></class>
+</classes>
+</test>
+<test name="RPOST_D_17_Verify_UserCanCreateEditShareAndDeleteTemplete">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_17_Verify_UserCanCreateEditShareAndDeleteTemplete"></class>
+</classes>
+</test>
+<test name="RPOST_D_18_Verify_UserCanSendAlreadyDraftedEnvelope">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_18_Verify_UserCanSendAlreadyDraftedEnvelope"></class>
+</classes>
+</test>
+<test name="RPOST_D_19_Verify_CompanyListUnderAdminTab">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_19_Verify_CompanyListUnderAdminTab"></class>
+</classes>
+</test>
+<test name="RPOST_D_24_Verify_TimeZoneAcrossTabs">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_24_Verify_TimeZoneAcrossTabs"></class>
+</classes>
+</test>
+<test name="RPOST_D_27_Verify_SignatureTextUnderUserProfile">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_27_Verify_SignatureTextUnderUserProfile"></class>
+</classes>
+</test>
+<test name="RPOST_D_29_Verify_UserCanCreateEditShareAndDeleteRule">
+<classes>
+<class name="in.v2solutions.hybrid.testcases.RPOST_D_29_Verify_UserCanCreateEditShareAndDeleteRule"></class>
+</classes>
+</test>
+</suite>

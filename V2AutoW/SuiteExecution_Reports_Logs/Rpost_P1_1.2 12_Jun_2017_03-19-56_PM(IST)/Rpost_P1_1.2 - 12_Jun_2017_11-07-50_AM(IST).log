@@ -1,0 +1,28 @@
+12/06/2017 11:07:50 AutomationLog : Initializing keywords
+12/06/2017 11:07:50 AutomationLog : =========================================================
+12/06/2017 11:07:50 AutomationLog : Executing---RPOST_D_02_Verify_UserCanLoginWithValidCredentials Test Case
+12/06/2017 11:07:50 AutomationLog : Navigating to (https://app.rsign.com) Site
+12/06/2017 11:07:50 AutomationLog : No Opened Browser Available, Opening New one
+12/06/2017 11:08:17 AutomationLog : Opening: FIREFOX  Browser
+12/06/2017 11:08:24 AutomationLog : PASS
+12/06/2017 11:08:29 AutomationLog : Waiting for Page to load.
+12/06/2017 11:08:29 AutomationLog : PASS
+12/06/2017 11:08:29 AutomationLog : Entering: "testuserrpost@v2solutions.com" text in USER_NAME Field
+12/06/2017 11:08:30 AutomationLog : PASS
+12/06/2017 11:08:30 AutomationLog : Entering: "Mail_123" text in PASS_WORD Field
+12/06/2017 11:08:31 AutomationLog : PASS
+12/06/2017 11:08:31 AutomationLog : Performing Click action on SIGN_IN
+12/06/2017 11:08:32 AutomationLog : PASS
+12/06/2017 11:08:42 AutomationLog : Waiting for Page to load.
+12/06/2017 11:08:42 AutomationLog : PASS
+12/06/2017 11:08:42 AutomationLog : Verifying USER_ACCOUNT_NAME Text on the Page
+12/06/2017 11:08:42 AutomationLog : Actual is-> Test User AND Expected is->Test User
+12/06/2017 11:08:42 AutomationLog : PASS
+12/06/2017 11:08:47 AutomationLog : Waiting for Page to load.
+12/06/2017 11:08:47 AutomationLog : PASS
+12/06/2017 11:08:47 AutomationLog : Performing Click action on LOGOUT_IMAGE
+12/06/2017 11:08:48 AutomationLog : PASS
+12/06/2017 11:08:48 AutomationLog : Performing Click action on LOGOUT_LINK
+12/06/2017 11:08:48 AutomationLog : PASS
+12/06/2017 11:08:48 AutomationLog : TestCase is Ending
+12/06/2017 11:08:48 AutomationLog : PASS

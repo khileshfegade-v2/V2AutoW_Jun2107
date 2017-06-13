@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="jars/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/testng-6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/jsoup-1.10.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/log4j-1.2.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/mysql-connector-java-6.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/harlib-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/browsermob-dist-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/browsermob-dist-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/mongo-java-driver-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/harlib-jackson-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-3.8-beta3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-ooxml-3.8-beta3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-ooxml-schemas-3.8-beta4.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/xmlbeans-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="jars/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="jars/SaxonLiaison.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

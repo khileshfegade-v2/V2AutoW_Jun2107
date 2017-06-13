@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [P1]">
+  <parameter name="Suite-Name" value="Rpost_P1_1.2"/>
+  <test name="RPOST_D_03_Verify_UserCanEditAndUpdateProfileName(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_03_Verify_UserCanEditAndUpdateProfileName">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verify_UserCanEditAndUpdateProfileName" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_03_Verify_UserCanEditAndUpdateProfileName -->
+    </classes>
+  </test> <!-- RPOST_D_03_Verify_UserCanEditAndUpdateProfileName(failed) -->
+  <test name="RPOST_D_05_Verify_UserCanCreateEnvelopeAndSend(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_05_Verify_UserCanCreateEnvelopeAndSend">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_UserCanCreateEnvelopeAndSend" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_05_Verify_UserCanCreateEnvelopeAndSend -->
+    </classes>
+  </test> <!-- RPOST_D_05_Verify_UserCanCreateEnvelopeAndSend(failed) -->
+  <test name="RPOST_D_07_Verify_UserCanConsumeTemplateEditAndSendIt(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_07_Verify_UserCanConsumeTemplateEditAndSendIt">
+        <methods>
+          <include name="verify_UserCanConsumeTemplateEditAndSendIt" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_07_Verify_UserCanConsumeTemplateEditAndSendIt -->
+    </classes>
+  </test> <!-- RPOST_D_07_Verify_UserCanConsumeTemplateEditAndSendIt(failed) -->
+  <test name="RPOST_D_08_Verify_UserCanCreateEnvelopeAndDraftIt(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_08_Verify_UserCanCreateEnvelopeAndDraftIt">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_UserCanCreateEnvelopeAndDraftIt" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_08_Verify_UserCanCreateEnvelopeAndDraftIt -->
+    </classes>
+  </test> <!-- RPOST_D_08_Verify_UserCanCreateEnvelopeAndDraftIt(failed) -->
+  <test name="RPOST_D_09_Verify_UserCanCreateEnvelopeAndViewPDF(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_09_Verify_UserCanCreateEnvelopeAndViewPDF">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_UserCanCreateEnvelopeAndViewPDF" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_09_Verify_UserCanCreateEnvelopeAndViewPDF -->
+    </classes>
+  </test> <!-- RPOST_D_09_Verify_UserCanCreateEnvelopeAndViewPDF(failed) -->
+  <test name="RPOST_D_13_Verify_StatusFilterWorksUnderManageTab(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_13_Verify_StatusFilterWorksUnderManageTab">
+        <methods>
+          <include name="verify_StatusFilterWorksUnderManageTab" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_13_Verify_StatusFilterWorksUnderManageTab -->
+    </classes>
+  </test> <!-- RPOST_D_13_Verify_StatusFilterWorksUnderManageTab(failed) -->
+  <test name="RPOST_D_17_Verify_UserCanCreateEditShareAndDeleteTemplete(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_17_Verify_UserCanCreateEditShareAndDeleteTemplete">
+        <methods>
+          <include name="verify_UserCanCreateEditShareAndDeleteTemplete" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_17_Verify_UserCanCreateEditShareAndDeleteTemplete -->
+    </classes>
+  </test> <!-- RPOST_D_17_Verify_UserCanCreateEditShareAndDeleteTemplete(failed) -->
+  <test name="RPOST_D_18_Verify_UserCanSendAlreadyDraftedEnvelope(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_18_Verify_UserCanSendAlreadyDraftedEnvelope">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_UserCanSendAlreadyDraftedEnvelope" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_18_Verify_UserCanSendAlreadyDraftedEnvelope -->
+    </classes>
+  </test> <!-- RPOST_D_18_Verify_UserCanSendAlreadyDraftedEnvelope(failed) -->
+  <test name="RPOST_D_19_Verify_CompanyListUnderAdminTab(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_19_Verify_CompanyListUnderAdminTab">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_CompanyListUnderAdminTab" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_19_Verify_CompanyListUnderAdminTab -->
+    </classes>
+  </test> <!-- RPOST_D_19_Verify_CompanyListUnderAdminTab(failed) -->
+  <test name="RPOST_D_24_Verify_TimeZoneAcrossTabs(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_24_Verify_TimeZoneAcrossTabs">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_TimeZoneAcrossTabs" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_24_Verify_TimeZoneAcrossTabs -->
+    </classes>
+  </test> <!-- RPOST_D_24_Verify_TimeZoneAcrossTabs(failed) -->
+  <test name="RPOST_D_27_Verify_SignatureTextUnderUserProfile(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_27_Verify_SignatureTextUnderUserProfile">
+        <methods>
+          <include name="verify_SignatureTextUnderUserProfile" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_27_Verify_SignatureTextUnderUserProfile -->
+    </classes>
+  </test> <!-- RPOST_D_27_Verify_SignatureTextUnderUserProfile(failed) -->
+  <test name="RPOST_D_29_Verify_UserCanCreateEditShareAndDeleteRule(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_29_Verify_UserCanCreateEditShareAndDeleteRule">
+        <methods>
+          <include name="verify_UserCanCreateEditShareAndDeleteRule" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_29_Verify_UserCanCreateEditShareAndDeleteRule -->
+    </classes>
+  </test> <!-- RPOST_D_29_Verify_UserCanCreateEditShareAndDeleteRule(failed) -->
+</suite> <!-- Failed suite [P1] -->

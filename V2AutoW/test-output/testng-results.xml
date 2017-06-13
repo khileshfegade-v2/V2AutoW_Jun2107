@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42503" started-at="2017-06-12T09:12:46Z" finished-at="2017-06-12T09:13:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42503" started-at="2017-06-12T09:12:46Z" finished-at="2017-06-12T09:13:28Z">
+      <class name="in.v2solutions.hybrid.testcases.RPOST_D_02_Verify_UserCanLoginWithValidCredentials">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.RPOST_D_02_Verify_UserCanLoginWithValidCredentials@4c39bec8]" name="beforeTest" is-config="true" duration-ms="16" started-at="2017-06-12T14:42:46Z" finished-at="2017-06-12T14:42:46Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verify_UserCanLoginWithValidCredentials(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.RPOST_D_02_Verify_UserCanLoginWithValidCredentials@4c39bec8]" name="verify_UserCanLoginWithValidCredentials" duration-ms="41383" started-at="2017-06-12T14:42:46Z" data-provider="getTestData" finished-at="2017-06-12T14:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UserCanLoginWithValidCredentials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.RPOST_D_02_Verify_UserCanLoginWithValidCredentials@4c39bec8]" name="afterTest" is-config="true" duration-ms="1082" started-at="2017-06-12T14:43:27Z" finished-at="2017-06-12T14:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.RPOST_D_02_Verify_UserCanLoginWithValidCredentials -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
